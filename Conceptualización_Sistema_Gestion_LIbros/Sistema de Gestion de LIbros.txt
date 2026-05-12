@@ -1,0 +1,23 @@
+Sistema de Gestion de Libros para una biblioteca (BlueLabelText):
+	Funcionalidades que cuenta:
+		- Se puede agregar, eliminar, modificar los Libros
+		- Se pueden buscar libros por Autor, editorial, año de publicación, categoría, ISBN.
+		- Cada libro cuenta: Autor, ISBN, Titulo, descipción o sipnosis, año de publicación, categoria, ejemplares.
+		-- Libros prestados o disponibles.
+		- Se desarrollara en Python.
+		- Se trabajara con Postgres.
+
+La biblioteca BlueLabelText necesita desarrollar un sistema informático que permita gestionar su catálogo de libros y los préstamos realizados  a sus lectores. El sistema debe almacenar la siguiente información de cada libro: ISBN, título, descripción, año de publicación, categoría a la que pertenece y el número de ejemplares disponibles. Cada libro puede tener asociado a varios autores y un autor puede escribir varios libros, pero un libro solo puede tener una editorial. 
+De un autor se desea almacenar identificador, seudónimo y de cada editorial su identificador, nombre, país al que pertenece y sus números telefónicos. Un libro puede ser prestado a varios lectores y un lector puede obtener varios préstamos de  libros que se los puede prestar en fechas diferentes y establecer un límite para  devolverlo, de cada lector se desea guardar cédula, nombre y apellido y correo electrónico. Este sistema permitirá llevar un control del inventario y los préstamos, resolviendo los problemas derivados de una
+gestión manual.
+
+Libro (ISBN, título, descripción, año de publicación, editorial)
+Autor(identificador, seudonimo)
+Editorial(codigo, nombre editorial, pais)
+números telefonicos (codigo_editorial, telefono)
+Ejemplares (identificador, estado, ISBN_libro)
+Lector(cédula, nombres, apellidos, correo electronico)
+Prestamo(fecha_prestado, fecha_estimacion_devolucion, cedula_lector, identificador_ejemplar)
+Genero_Literario(identificador, nombre_genero)
+Libro_Autor(ISBN_libro, identificador_autor)
+Genero_Libro(ISBN_libro, identificador_genero)
