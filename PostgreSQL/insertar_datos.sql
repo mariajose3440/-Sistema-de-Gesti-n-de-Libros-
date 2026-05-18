@@ -114,6 +114,7 @@ INSERT INTO Lector VALUES ('0945678912', 'Ana', 'Paredes', 'ana@gmail.com');
 INSERT INTO Lector VALUES ('0956789123', 'Diego', 'Mora', 'diego@gmail.com');
 INSERT INTO Lector VALUES ('0967891234', 'Valeria', 'Torres', 'valeria@gmail.com');
 INSERT INTO Lector VALUES ('0978912345', 'Sebastian', 'Reyes', 'sebastian@gmail.com');
+INSERT INTO lector VALUES ('1150299876', 'NullTrace', 'DeusEx', 'nulltrace@gmail.com');
 
 /*
 -- EJEMPLAR
