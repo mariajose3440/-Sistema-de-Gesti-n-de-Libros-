@@ -56,7 +56,7 @@ WHERE pais = 'Francia';
 
 /*
 -- Quinta Consulta:
-¿Cuales lectores nunca han tenido un prestamo?
+¿Cuales lectores no tienen un prestamo?
 */
 SELECT nombres, apellidos
 FROM lector
